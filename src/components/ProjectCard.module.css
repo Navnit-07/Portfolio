@@ -1,0 +1,24 @@
+.project-card{
+    /* border: 2px solid black; */
+    width: 28em;
+    height: 18em;
+    display: flex;
+    padding: 1% 0px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-card img{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.project-card p{
+    width: 100%;
+    color: #FFFF;
+    padding: 2px;
+    font-weight: 500;
+    text-align: center;
+    background-color: black;
+}

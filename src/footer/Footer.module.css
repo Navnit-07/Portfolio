@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    color: #FFFF;
+    padding: 20px;
+    font-weight: 500;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+.footer p{
+    width: 15%;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 15px;
+    text-align: center;
+    animation: shadow 2s infinite alternate-reverse;
+}
+
+@keyframes shadow {
+    0%{
+        box-shadow: 0 0px 10px 0px #f7df1e;
+    }
+    100%{
+        box-shadow: 0 10px 10px -5px #f7df1e;
+    }
+}

@@ -1,0 +1,19 @@
+.about-container{
+    width: 100%;
+    margin-top: 5vh;
+    border-bottom: 4px solid #212529;
+}
+
+.about-content{
+    width: 80%;
+    margin: 5vh auto;
+    padding: 2rem;
+    line-height: 2rem;
+    text-align: justify;
+    font-weight: 450;
+    border-radius: 1rem;
+    color: #FFFF;
+    background-color: #0A6072;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3), 0 10px 40px rgba(0, 0, 0, 0.2);
+    font-family: 'Inter';
+}
